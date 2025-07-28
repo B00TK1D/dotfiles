@@ -1,0 +1,1042 @@
+[2024-09-17 02:08:24.425]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2024-09-17 02:08:24.439]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2024-09-17 02:08:24.811]	 Installing "tmux-cpu"
+[2024-09-17 02:08:24.812]	 Installing "tmux-yank"
+[2024-09-17 02:08:25.445]	   "tmux-cpu" download success
+[2024-09-17 02:08:25.477]	   "tmux-yank" download success
+[2024-09-17 02:08:25.493]	 Done.
+
+[2024-09-17 02:08:37.220]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2024-09-17 02:08:37.256]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2024-09-17 02:08:37.501]	 Already installed "tmux-yank"
+[2024-09-17 02:08:37.502]	 Already installed "tmux-cpu"
+[2024-09-17 02:08:37.518]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2024-09-17 02:08:37.834]	 Updating all plugins!
+[2024-09-17 02:08:37.834]	 
+[2024-09-17 02:08:38.330]	   "tmux-cpu" update success
+[2024-09-17 02:08:38.332]	     | Already up to date.
+[2024-09-17 02:08:38.346]	   "tmux-yank" update success
+[2024-09-17 02:08:38.349]	     | Already up to date.
+[2024-09-17 02:08:38.365]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-09-17 02:08:38.724]	 Done.
+
+[2024-09-17 02:09:16.120]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2024-09-17 02:09:16.137]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2024-09-17 02:09:16.365]	 Already installed "tmux-cpu"
+[2024-09-17 02:09:16.365]	 Already installed "tmux-yank"
+[2024-09-17 02:09:16.382]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2024-09-17 02:09:16.557]	 Updating all plugins!
+[2024-09-17 02:09:16.557]	 
+[2024-09-17 02:09:17.133]	   "tmux-cpu" update success
+[2024-09-17 02:09:17.133]	   "tmux-yank" update success
+[2024-09-17 02:09:17.136]	     | Already up to date.
+[2024-09-17 02:09:17.137]	     | Already up to date.
+[2024-09-17 02:09:17.154]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-09-17 02:09:17.229]	 Done.
+
+[2024-09-17 02:09:21.746]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2024-09-17 02:09:21.761]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2024-09-17 02:09:21.980]	 Already installed "tmux-cpu"
+[2024-09-17 02:09:21.980]	 Already installed "tmux-yank"
+[2024-09-17 02:09:21.997]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2024-09-17 02:09:22.162]	 Updating all plugins!
+[2024-09-17 02:09:22.163]	 
+[2024-09-17 02:09:22.612]	   "tmux-yank" update success
+[2024-09-17 02:09:22.615]	     | Already up to date.
+[2024-09-17 02:09:22.687]	   "tmux-cpu" update success
+[2024-09-17 02:09:22.690]	     | Already up to date.
+[2024-09-17 02:09:22.705]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-09-17 02:09:22.770]	 Done.
+
+[2024-09-21 10:50:59.281]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2024-09-21 10:50:59.292]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2024-09-21 10:50:59.514]	 Already installed "tmux-yank"
+[2024-09-21 10:50:59.515]	 Already installed "tmux-cpu"
+[2024-09-21 10:50:59.526]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2024-09-21 10:50:59.671]	 Updating all plugins!
+[2024-09-21 10:50:59.671]	 
+[2024-09-21 10:51:00.220]	   "tmux-yank" update success
+[2024-09-21 10:51:00.223]	     | Already up to date.
+[2024-09-21 10:51:00.253]	   "tmux-cpu" update success
+[2024-09-21 10:51:00.256]	     | Already up to date.
+[2024-09-21 10:51:00.269]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-09-21 10:51:00.344]	 Done.
+
+[2024-09-28 11:02:10.153]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2024-09-28 11:02:10.163]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2024-09-28 11:02:10.389]	 Already installed "tmux-cpu"
+[2024-09-28 11:02:10.390]	 Already installed "tmux-yank"
+[2024-09-28 11:02:10.400]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2024-09-28 11:02:10.547]	 Updating all plugins!
+[2024-09-28 11:02:10.547]	 
+[2024-09-28 11:02:11.041]	   "tmux-yank" update success
+[2024-09-28 11:02:11.045]	     | Already up to date.
+[2024-09-28 11:02:11.071]	   "tmux-cpu" update success
+[2024-09-28 11:02:11.074]	     | Already up to date.
+[2024-09-28 11:02:11.084]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-09-28 11:02:11.161]	 Done.
+
+[2024-10-09 18:29:15.930]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2024-10-09 18:29:15.942]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2024-10-09 18:29:16.183]	 Already installed "tmux-yank"
+[2024-10-09 18:29:16.184]	 Already installed "tmux-cpu"
+[2024-10-09 18:29:16.196]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2024-10-09 18:29:16.369]	 Updating all plugins!
+[2024-10-09 18:29:16.369]	 
+[2024-10-09 18:29:17.013]	   "tmux-yank" update success
+[2024-10-09 18:29:17.016]	     | Already up to date.
+[2024-10-09 18:29:17.355]	   "tmux-cpu" update success
+[2024-10-09 18:29:17.357]	     | From https://github.com/tmux-plugins/tmux-cpu
+[2024-10-09 18:29:17.357]	     |    98d7871..bcb110d  master     -> origin/master
+[2024-10-09 18:29:17.357]	     | Updating 98d7871..bcb110d
+[2024-10-09 18:29:17.357]	     | Fast-forward
+[2024-10-09 18:29:17.357]	     |  README.md                 | 2 +-
+[2024-10-09 18:29:17.357]	     |  scripts/cpu_percentage.sh | 2 +-
+[2024-10-09 18:29:17.357]	     |  2 files changed, 2 insertions(+), 2 deletions(-)
+[2024-10-09 18:29:17.370]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-10-09 18:29:17.441]	 Done.
+
+[2024-10-10 09:16:42.418]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2024-10-10 09:16:42.429]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2024-10-10 09:16:42.628]	 Already installed "tmux-yank"
+[2024-10-10 09:16:42.628]	 Already installed "tmux-cpu"
+[2024-10-10 09:16:42.639]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2024-10-10 09:16:42.787]	 Updating all plugins!
+[2024-10-10 09:16:42.788]	 
+[2024-10-10 09:16:43.433]	   "tmux-cpu" update success
+[2024-10-10 09:16:43.436]	     | Already up to date.
+[2024-10-10 09:16:43.523]	   "tmux-yank" update success
+[2024-10-10 09:16:43.525]	     | Already up to date.
+[2024-10-10 09:16:43.540]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-10-10 09:16:43.630]	 Done.
+
+[2024-10-28 14:13:06.903]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2024-10-28 14:13:06.915]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2024-10-28 14:13:07.315]	 Already installed "tmux-yank"
+[2024-10-28 14:13:07.317]	 Already installed "tmux-cpu"
+[2024-10-28 14:13:07.328]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2024-10-28 14:13:07.653]	 Updating all plugins!
+[2024-10-28 14:13:07.653]	 
+[2024-10-28 14:13:08.544]	   "tmux-cpu" update success
+[2024-10-28 14:13:08.544]	   "tmux-yank" update success
+[2024-10-28 14:13:08.551]	     | Already up to date.
+[2024-10-28 14:13:08.551]	     | Already up to date.
+[2024-10-28 14:13:08.563]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-10-28 14:13:08.643]	 Done.
+
+[2024-10-30 09:34:05.176]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2024-10-30 09:34:05.186]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2024-10-30 09:34:05.700]	 Already installed "tmux-yank"
+[2024-10-30 09:34:05.701]	 Already installed "tmux-cpu"
+[2024-10-30 09:34:05.712]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2024-10-30 09:34:05.958]	 Updating all plugins!
+[2024-10-30 09:34:05.959]	 
+[2024-10-30 09:34:07.506]	   "tmux-cpu" update success
+[2024-10-30 09:34:07.506]	   "tmux-yank" update success
+[2024-10-30 09:34:07.509]	     | Already up to date.
+[2024-10-30 09:34:07.509]	     | Already up to date.
+[2024-10-30 09:34:07.519]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-10-30 09:34:07.575]	 Done.
+
+[2024-12-04 11:14:53.176]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2024-12-04 11:14:53.189]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2024-12-04 11:14:53.400]	 Already installed "tmux-yank"
+[2024-12-04 11:14:53.401]	 Already installed "tmux-cpu"
+[2024-12-04 11:14:53.413]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2024-12-04 11:14:53.559]	 Updating all plugins!
+[2024-12-04 11:14:53.559]	 
+[2024-12-04 11:14:54.117]	   "tmux-yank" update success
+[2024-12-04 11:14:54.117]	   "tmux-cpu" update success
+[2024-12-04 11:14:54.123]	     | Already up to date.
+[2024-12-04 11:14:54.123]	     | Already up to date.
+[2024-12-04 11:14:54.135]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-04 11:14:54.224]	 Done.
+
+[2024-12-09 01:33:11.713]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2024-12-09 01:33:11.725]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2024-12-09 01:33:11.965]	 Already installed "tmux-yank"
+[2024-12-09 01:33:11.965]	 Already installed "tmux-cpu"
+[2024-12-09 01:33:11.977]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2024-12-09 01:33:12.133]	 Updating all plugins!
+[2024-12-09 01:33:12.134]	 
+[2024-12-09 01:33:12.634]	   "tmux-cpu" update success
+[2024-12-09 01:33:12.638]	     | Already up to date.
+[2024-12-09 01:33:12.673]	   "tmux-yank" update success
+[2024-12-09 01:33:12.677]	     | Already up to date.
+[2024-12-09 01:33:12.689]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-09 01:33:12.775]	 Done.
+
+[2024-12-09 01:33:15.653]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2024-12-09 01:33:15.664]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2024-12-09 01:33:15.881]	 Already installed "tmux-cpu"
+[2024-12-09 01:33:15.882]	 Already installed "tmux-yank"
+[2024-12-09 01:33:15.893]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2024-12-09 01:33:16.046]	 Updating all plugins!
+[2024-12-09 01:33:16.047]	 
+[2024-12-09 01:33:16.578]	   "tmux-cpu" update success
+[2024-12-09 01:33:16.582]	     | Already up to date.
+[2024-12-09 01:33:16.609]	   "tmux-yank" update success
+[2024-12-09 01:33:16.613]	     | Already up to date.
+[2024-12-09 01:33:16.625]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-09 01:33:16.699]	 Done.
+
+[2024-12-10 13:52:59.747]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2024-12-10 13:52:59.760]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2024-12-10 13:52:59.973]	 Already installed "tmux-yank"
+[2024-12-10 13:52:59.974]	 Already installed "tmux-cpu"
+[2024-12-10 13:52:59.985]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2024-12-10 13:53:00.136]	 Updating all plugins!
+[2024-12-10 13:53:00.137]	 
+[2024-12-10 13:53:00.651]	   "tmux-cpu" update success
+[2024-12-10 13:53:00.656]	     | Already up to date.
+[2024-12-10 13:53:00.699]	   "tmux-yank" update success
+[2024-12-10 13:53:00.704]	     | Already up to date.
+[2024-12-10 13:53:00.716]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-12-10 13:53:00.803]	 Done.
+
+[2025-01-08 00:02:51.741]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-01-08 00:02:51.756]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-01-08 00:02:52.003]	 Already installed "tmux-yank"
+[2025-01-08 00:02:52.004]	 Already installed "tmux-cpu"
+[2025-01-08 00:02:52.017]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-01-08 00:02:52.679]	 Updating all plugins!
+[2025-01-08 00:02:52.679]	 
+[2025-01-08 00:02:53.795]	   "tmux-yank" update success
+[2025-01-08 00:02:53.795]	   "tmux-cpu" update success
+[2025-01-08 00:02:53.800]	     | Already up to date.
+[2025-01-08 00:02:53.800]	     | Already up to date.
+[2025-01-08 00:02:53.814]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-08 00:02:53.904]	 Done.
+
+[2025-01-18 23:07:38.528]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-01-18 23:07:38.540]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-01-18 23:07:38.797]	 Already installed "tmux-yank"
+[2025-01-18 23:07:38.798]	 Already installed "tmux-cpu"
+[2025-01-18 23:07:38.809]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-01-18 23:07:38.970]	 Updating all plugins!
+[2025-01-18 23:07:38.971]	 
+[2025-01-18 23:07:39.551]	   "tmux-cpu" update success
+[2025-01-18 23:07:39.551]	   "tmux-yank" update success
+[2025-01-18 23:07:39.557]	     | Already up to date.
+[2025-01-18 23:07:39.557]	     | Already up to date.
+[2025-01-18 23:07:39.569]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-18 23:07:39.664]	 Done.
+
+[2025-01-27 02:17:59.050]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-01-27 02:17:59.063]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-01-27 02:17:59.300]	 Already installed "tmux-cpu"
+[2025-01-27 02:17:59.301]	 Already installed "tmux-yank"
+[2025-01-27 02:17:59.317]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-01-27 02:17:59.487]	 Updating all plugins!
+[2025-01-27 02:17:59.487]	 
+[2025-01-27 02:18:02.102]	   "tmux-yank" update success
+[2025-01-27 02:18:02.116]	   "tmux-cpu" update success
+[2025-01-27 02:18:02.117]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-01-27 02:18:02.117]	     | Already up to date.
+[2025-01-27 02:18:02.127]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-01-27 02:18:02.127]	     | Already up to date.
+[2025-01-27 02:18:02.144]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-01-27 02:18:02.264]	 Done.
+
+[2025-02-14 19:37:07.458]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-02-14 19:37:07.471]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-02-14 19:37:07.713]	 Already installed "tmux-yank"
+[2025-02-14 19:37:07.713]	 Already installed "tmux-cpu"
+[2025-02-14 19:37:07.725]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-02-14 19:37:07.882]	 Updating all plugins!
+[2025-02-14 19:37:07.883]	 
+[2025-02-14 19:37:09.433]	   "tmux-cpu" update success
+[2025-02-14 19:37:09.437]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-02-14 19:37:09.437]	     | Already up to date.
+[2025-02-14 19:37:09.468]	   "tmux-yank" update success
+[2025-02-14 19:37:09.472]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-02-14 19:37:09.472]	     | Already up to date.
+[2025-02-14 19:37:09.484]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-02-14 19:37:09.572]	 Done.
+
+[2025-02-14 19:38:27.147]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-02-14 19:38:27.159]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-02-14 19:38:27.391]	 Already installed "tmux-yank"
+[2025-02-14 19:38:27.391]	 Already installed "tmux-cpu"
+[2025-02-14 19:38:27.403]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-02-14 19:38:27.563]	 Updating all plugins!
+[2025-02-14 19:38:27.563]	 
+[2025-02-14 19:38:29.079]	   "tmux-yank" update success
+[2025-02-14 19:38:29.079]	   "tmux-cpu" update success
+[2025-02-14 19:38:29.084]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-02-14 19:38:29.084]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-02-14 19:38:29.084]	     | Already up to date.
+[2025-02-14 19:38:29.084]	     | Already up to date.
+[2025-02-14 19:38:29.107]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-02-14 19:38:29.243]	 Done.
+
+[2025-03-04 16:08:44.378]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-03-04 16:08:44.390]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-04 16:08:44.471]	 Already installed "tmux-yank"
+[2025-03-04 16:08:44.471]	 Already installed "tmux-cpu"
+[2025-03-04 16:08:44.483]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-04 16:08:44.518]	 Updating all plugins!
+[2025-03-04 16:08:44.518]	 
+[2025-03-04 16:08:46.024]	   "tmux-cpu" update success
+[2025-03-04 16:08:46.028]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-04 16:08:46.028]	     | Already up to date.
+[2025-03-04 16:08:46.139]	   "tmux-yank" update success
+[2025-03-04 16:08:46.143]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-04 16:08:46.143]	     | Already up to date.
+[2025-03-04 16:08:46.155]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-04 16:08:46.239]	 Done.
+
+[2025-03-04 16:43:26.813]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-03-04 16:43:26.825]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-04 16:43:26.900]	 Already installed "tmux-yank"
+[2025-03-04 16:43:26.900]	 Already installed "tmux-cpu"
+[2025-03-04 16:43:26.911]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-04 16:43:26.945]	 Updating all plugins!
+[2025-03-04 16:43:26.945]	 
+[2025-03-04 16:43:28.435]	   "tmux-yank" update success
+[2025-03-04 16:43:28.438]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-04 16:43:28.438]	     | Already up to date.
+[2025-03-04 16:43:28.561]	   "tmux-cpu" update success
+[2025-03-04 16:43:28.565]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-04 16:43:28.565]	     | Already up to date.
+[2025-03-04 16:43:28.577]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-04 16:43:28.650]	 Done.
+
+[2025-03-04 17:05:00.873]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-03-04 17:05:00.882]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-04 17:05:00.933]	 Already installed "tmux-yank"
+[2025-03-04 17:05:00.934]	 Already installed "tmux-cpu"
+[2025-03-04 17:05:00.943]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-04 17:05:00.963]	 Updating all plugins!
+[2025-03-04 17:05:00.963]	 
+[2025-03-04 17:05:02.603]	   "tmux-yank" update success
+[2025-03-04 17:05:02.603]	   "tmux-cpu" update success
+[2025-03-04 17:05:02.606]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-04 17:05:02.606]	     | Already up to date.
+[2025-03-04 17:05:02.606]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-04 17:05:02.606]	     | Already up to date.
+[2025-03-04 17:05:02.616]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-04 17:05:02.664]	 Done.
+
+[2025-03-04 22:29:53.217]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-03-04 22:29:53.227]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-04 22:29:53.279]	 Already installed "tmux-yank"
+[2025-03-04 22:29:53.279]	 Already installed "tmux-cpu"
+[2025-03-04 22:29:53.289]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-04 22:29:53.310]	 Updating all plugins!
+[2025-03-04 22:29:53.310]	 
+[2025-03-04 22:29:54.749]	   "tmux-cpu" update success
+[2025-03-04 22:29:54.749]	   "tmux-yank" update success
+[2025-03-04 22:29:54.752]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-04 22:29:54.752]	     | Already up to date.
+[2025-03-04 22:29:54.752]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-04 22:29:54.752]	     | Already up to date.
+[2025-03-04 22:29:54.763]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-04 22:29:54.815]	 Done.
+
+[2025-03-04 22:32:01.498]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-03-04 22:32:01.508]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-04 22:32:01.560]	 Already installed "tmux-yank"
+[2025-03-04 22:32:01.561]	 Already installed "tmux-cpu"
+[2025-03-04 22:32:01.571]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-04 22:32:01.592]	 Updating all plugins!
+[2025-03-04 22:32:01.592]	 
+[2025-03-04 22:32:03.040]	   "tmux-cpu" update success
+[2025-03-04 22:32:03.042]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-04 22:32:03.042]	     | Already up to date.
+[2025-03-04 22:32:03.091]	   "tmux-yank" update success
+[2025-03-04 22:32:03.093]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-04 22:32:03.093]	     | Already up to date.
+[2025-03-04 22:32:03.104]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-04 22:32:03.158]	 Done.
+
+[2025-03-04 22:33:31.967]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-03-04 22:33:31.977]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-04 22:33:32.030]	 Already installed "tmux-yank"
+[2025-03-04 22:33:32.030]	 Already installed "tmux-cpu"
+[2025-03-04 22:33:32.040]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-04 22:33:32.061]	 Updating all plugins!
+[2025-03-04 22:33:32.061]	 
+[2025-03-04 22:33:33.582]	   "tmux-yank" update success
+[2025-03-04 22:33:33.584]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-04 22:33:33.584]	     | Already up to date.
+[2025-03-04 22:33:33.649]	   "tmux-cpu" update success
+[2025-03-04 22:33:33.651]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-04 22:33:33.651]	     | Already up to date.
+[2025-03-04 22:33:33.661]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-04 22:33:33.711]	 Done.
+
+[2025-03-04 22:33:44.937]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-03-04 22:33:44.946]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-04 22:33:44.998]	 Already installed "tmux-yank"
+[2025-03-04 22:33:44.998]	 Already installed "tmux-cpu"
+[2025-03-04 22:33:45.007]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-04 22:33:45.029]	 Updating all plugins!
+[2025-03-04 22:33:45.030]	 
+[2025-03-04 22:33:46.523]	   "tmux-yank" update success
+[2025-03-04 22:33:46.526]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-04 22:33:46.526]	     | Already up to date.
+[2025-03-04 22:33:46.599]	   "tmux-cpu" update success
+[2025-03-04 22:33:46.601]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-04 22:33:46.601]	     | Already up to date.
+[2025-03-04 22:33:46.612]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-04 22:33:46.660]	 Done.
+
+[2025-03-04 22:34:31.843]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-03-04 22:34:31.854]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-04 22:34:31.904]	 Already installed "tmux-cpu"
+[2025-03-04 22:34:31.904]	 Already installed "tmux-yank"
+[2025-03-04 22:34:31.914]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-04 22:34:31.935]	 Updating all plugins!
+[2025-03-04 22:34:31.935]	 
+[2025-03-04 22:34:33.335]	   "tmux-yank" update success
+[2025-03-04 22:34:33.337]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-04 22:34:33.337]	     | Already up to date.
+[2025-03-04 22:34:33.378]	   "tmux-cpu" update success
+[2025-03-04 22:34:33.380]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-04 22:34:33.380]	     | Already up to date.
+[2025-03-04 22:34:33.390]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-04 22:34:33.440]	 Done.
+
+[2025-03-04 22:35:30.085]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-03-04 22:35:30.095]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-04 22:35:30.146]	 Already installed "tmux-yank"
+[2025-03-04 22:35:30.147]	 Already installed "tmux-cpu"
+[2025-03-04 22:35:30.156]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-04 22:35:30.178]	 Updating all plugins!
+[2025-03-04 22:35:30.178]	 
+[2025-03-04 22:35:31.692]	   "tmux-cpu" update success
+[2025-03-04 22:35:31.694]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-04 22:35:31.694]	     | Already up to date.
+[2025-03-04 22:35:31.787]	   "tmux-yank" update success
+[2025-03-04 22:35:31.790]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-04 22:35:31.790]	     | Already up to date.
+[2025-03-04 22:35:31.800]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-04 22:35:31.855]	 Done.
+
+[2025-03-04 22:37:56.236]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-03-04 22:37:56.247]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-04 22:37:56.299]	 Already installed "tmux-yank"
+[2025-03-04 22:37:56.299]	 Already installed "tmux-cpu"
+[2025-03-04 22:37:56.309]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-04 22:37:56.330]	 Updating all plugins!
+[2025-03-04 22:37:56.330]	 
+[2025-03-04 22:37:57.724]	   "tmux-yank" update success
+[2025-03-04 22:37:57.727]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-04 22:37:57.727]	     | Already up to date.
+[2025-03-04 22:37:57.802]	   "tmux-cpu" update success
+[2025-03-04 22:37:57.804]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-04 22:37:57.804]	     | Already up to date.
+[2025-03-04 22:37:57.814]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-04 22:37:57.863]	 Done.
+
+[2025-03-04 22:42:03.988]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-03-04 22:42:03.999]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-04 22:42:04.052]	 Already installed "tmux-yank"
+[2025-03-04 22:42:04.052]	 Already installed "tmux-cpu"
+[2025-03-04 22:42:04.062]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-04 22:42:04.088]	 Updating all plugins!
+[2025-03-04 22:42:04.088]	 
+[2025-03-04 22:42:05.609]	   "tmux-yank" update success
+[2025-03-04 22:42:05.612]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-04 22:42:05.612]	     | Already up to date.
+[2025-03-04 22:42:05.740]	   "tmux-cpu" update success
+[2025-03-04 22:42:05.743]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-04 22:42:05.743]	     | Already up to date.
+[2025-03-04 22:42:05.755]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-04 22:42:05.811]	 Done.
+
+[2025-03-04 22:42:48.952]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-03-04 22:42:48.962]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-04 22:42:49.018]	 Already installed "tmux-cpu"
+[2025-03-04 22:42:49.019]	 Already installed "tmux-yank"
+[2025-03-04 22:42:49.029]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-04 22:42:49.051]	 Updating all plugins!
+[2025-03-04 22:42:49.051]	 
+[2025-03-04 22:42:50.515]	   "tmux-yank" update success
+[2025-03-04 22:42:50.518]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-04 22:42:50.518]	     | Already up to date.
+[2025-03-04 22:42:50.539]	   "tmux-cpu" update success
+[2025-03-04 22:42:50.542]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-04 22:42:50.542]	     | Already up to date.
+[2025-03-04 22:42:50.552]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-04 22:42:50.602]	 Done.
+
+[2025-03-05 20:51:42.724]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-03-05 20:51:42.734]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-05 20:51:42.785]	 Already installed "tmux-yank"
+[2025-03-05 20:51:42.786]	 Already installed "tmux-cpu"
+[2025-03-05 20:51:42.795]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-05 20:51:42.816]	 Updating all plugins!
+[2025-03-05 20:51:42.817]	 
+[2025-03-05 20:51:44.319]	   "tmux-cpu" update success
+[2025-03-05 20:51:44.321]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-05 20:51:44.321]	     | Already up to date.
+[2025-03-05 20:51:44.386]	   "tmux-yank" update success
+[2025-03-05 20:51:44.389]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-05 20:51:44.389]	     | Already up to date.
+[2025-03-05 20:51:44.398]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-05 20:51:44.448]	 Done.
+
+[2025-03-05 20:53:31.717]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-03-05 20:53:31.727]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-03-05 20:53:31.777]	 Already installed "tmux-cpu"
+[2025-03-05 20:53:31.777]	 Already installed "tmux-yank"
+[2025-03-05 20:53:31.787]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-03-05 20:53:31.807]	 Updating all plugins!
+[2025-03-05 20:53:31.807]	 
+[2025-03-05 20:53:33.237]	   "tmux-yank" update success
+[2025-03-05 20:53:33.239]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-05 20:53:33.239]	     | Already up to date.
+[2025-03-05 20:53:33.338]	   "tmux-cpu" update success
+[2025-03-05 20:53:33.340]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-03-05 20:53:33.340]	     | Already up to date.
+[2025-03-05 20:53:33.350]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-03-05 20:53:33.398]	 Done.
+
+[2025-04-13 14:15:58.180]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-04-13 14:15:58.190]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-04-13 14:15:58.239]	 Already installed "tmux-yank"
+[2025-04-13 14:15:58.239]	 Already installed "tmux-cpu"
+[2025-04-13 14:15:58.249]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-04-13 14:15:58.267]	 Updating all plugins!
+[2025-04-13 14:15:58.268]	 
+[2025-04-13 14:15:59.856]	   "tmux-yank" update success
+[2025-04-13 14:15:59.859]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-04-13 14:15:59.859]	     | Already up to date.
+[2025-04-13 14:15:59.863]	   "tmux-cpu" update success
+[2025-04-13 14:15:59.865]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-04-13 14:15:59.865]	     | Already up to date.
+[2025-04-13 14:15:59.874]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-13 14:15:59.919]	 Done.
+
+[2025-04-13 21:41:00.084]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-04-13 21:41:00.094]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-04-13 21:41:00.144]	 Already installed "tmux-yank"
+[2025-04-13 21:41:00.144]	 Already installed "tmux-cpu"
+[2025-04-13 21:41:00.154]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-04-13 21:41:00.171]	 Updating all plugins!
+[2025-04-13 21:41:00.172]	 
+[2025-04-13 21:41:01.735]	   "tmux-yank" update success
+[2025-04-13 21:41:01.735]	   "tmux-cpu" update success
+[2025-04-13 21:41:01.737]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-04-13 21:41:01.737]	     | Already up to date.
+[2025-04-13 21:41:01.737]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-04-13 21:41:01.737]	     | Already up to date.
+[2025-04-13 21:41:01.747]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-13 21:41:01.793]	 Done.
+
+[2025-04-14 16:43:53.750]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-04-14 16:43:53.760]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-04-14 16:43:53.814]	 Already installed "tmux-yank"
+[2025-04-14 16:43:53.815]	 Already installed "tmux-cpu"
+[2025-04-14 16:43:53.825]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-04-14 16:43:53.845]	 Updating all plugins!
+[2025-04-14 16:43:53.846]	 
+[2025-04-14 16:43:55.398]	   "tmux-cpu" update success
+[2025-04-14 16:43:55.398]	   "tmux-yank" update success
+[2025-04-14 16:43:55.401]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-04-14 16:43:55.401]	     | Already up to date.
+[2025-04-14 16:43:55.401]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-04-14 16:43:55.401]	     | Already up to date.
+[2025-04-14 16:43:55.411]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-14 16:43:55.459]	 Done.
+
+[2025-04-15 17:06:21.924]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-04-15 17:06:21.935]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-04-15 17:06:21.987]	 Already installed "tmux-yank"
+[2025-04-15 17:06:21.987]	 Already installed "tmux-cpu"
+[2025-04-15 17:06:21.997]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-04-15 17:06:22.022]	 Updating all plugins!
+[2025-04-15 17:06:22.022]	 
+[2025-04-15 17:06:23.628]	   "tmux-cpu" update success
+[2025-04-15 17:06:23.631]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-04-15 17:06:23.631]	     | Already up to date.
+[2025-04-15 17:06:23.652]	   "tmux-yank" update success
+[2025-04-15 17:06:23.655]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-04-15 17:06:23.655]	     | Already up to date.
+[2025-04-15 17:06:23.665]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-15 17:06:23.715]	 Done.
+
+[2025-04-19 17:27:22.739]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-04-19 17:27:22.749]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-04-19 17:27:22.801]	 Already installed "tmux-yank"
+[2025-04-19 17:27:22.802]	 Already installed "tmux-cpu"
+[2025-04-19 17:27:22.811]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-04-19 17:27:22.830]	 Updating all plugins!
+[2025-04-19 17:27:22.831]	 
+[2025-04-19 17:27:24.378]	   "tmux-cpu" update success
+[2025-04-19 17:27:24.380]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-04-19 17:27:24.380]	     | Already up to date.
+[2025-04-19 17:27:24.435]	   "tmux-yank" update success
+[2025-04-19 17:27:24.437]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-04-19 17:27:24.437]	     | Already up to date.
+[2025-04-19 17:27:24.447]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-19 17:27:24.494]	 Done.
+
+[2025-04-28 19:36:16.373]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-04-28 19:36:16.383]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-04-28 19:36:16.434]	 Already installed "tmux-yank"
+[2025-04-28 19:36:16.434]	 Already installed "tmux-cpu"
+[2025-04-28 19:36:16.444]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-04-28 19:36:16.463]	 Updating all plugins!
+[2025-04-28 19:36:16.463]	 
+[2025-04-28 19:36:17.962]	   "tmux-yank" update success
+[2025-04-28 19:36:17.962]	   "tmux-cpu" update success
+[2025-04-28 19:36:17.965]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-04-28 19:36:17.965]	     | Already up to date.
+[2025-04-28 19:36:17.965]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-04-28 19:36:17.965]	     | Already up to date.
+[2025-04-28 19:36:17.975]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-28 19:36:18.021]	 Done.
+
+[2025-04-30 23:05:41.444]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-04-30 23:05:41.455]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-04-30 23:05:41.506]	 Already installed "tmux-yank"
+[2025-04-30 23:05:41.507]	 Already installed "tmux-cpu"
+[2025-04-30 23:05:41.518]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-04-30 23:05:41.540]	 Updating all plugins!
+[2025-04-30 23:05:41.540]	 
+[2025-04-30 23:05:43.025]	   "tmux-cpu" update success
+[2025-04-30 23:05:43.028]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-04-30 23:05:43.028]	     | Already up to date.
+[2025-04-30 23:05:43.182]	   "tmux-yank" update success
+[2025-04-30 23:05:43.184]	     | fatal: unable to get credential storage lock in 1000 ms: File exists
+[2025-04-30 23:05:43.184]	     | Already up to date.
+[2025-04-30 23:05:43.194]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-04-30 23:05:43.245]	 Done.
+
+[2025-05-23 13:17:49.022]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-05-23 13:17:49.033]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-05-23 13:17:49.087]	 Already installed "tmux-yank"
+[2025-05-23 13:17:49.087]	 Already installed "tmux-cpu"
+[2025-05-23 13:17:49.098]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-05-23 13:17:49.119]	 Updating all plugins!
+[2025-05-23 13:17:49.119]	 
+[2025-05-23 13:17:50.094]	   "tmux-cpu" update success
+[2025-05-23 13:17:50.096]	     | Already up to date.
+[2025-05-23 13:17:50.255]	   "tmux-yank" update success
+[2025-05-23 13:17:50.257]	     | Already up to date.
+[2025-05-23 13:17:50.268]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-23 13:17:50.323]	 Done.
+
+[2025-06-09 22:10:38.933]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-06-09 22:10:38.944]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-06-09 22:10:38.996]	 Already installed "tmux-yank"
+[2025-06-09 22:10:38.996]	 Already installed "tmux-cpu"
+[2025-06-09 22:10:39.007]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-06-09 22:10:39.027]	 Updating all plugins!
+[2025-06-09 22:10:39.028]	 
+[2025-06-09 22:10:39.452]	   "tmux-yank" update success
+[2025-06-09 22:10:39.455]	     | Already up to date.
+[2025-06-09 22:10:39.467]	   "tmux-cpu" update success
+[2025-06-09 22:10:39.470]	     | Already up to date.
+[2025-06-09 22:10:39.481]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-09 22:10:39.535]	 Done.
+
+[2025-06-09 22:56:39.877]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-06-09 22:56:39.901]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-06-09 22:56:40.000]	 Already installed "tmux-yank"
+[2025-06-09 22:56:40.000]	 Already installed "tmux-cpu"
+[2025-06-09 22:56:40.013]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-06-09 22:56:40.042]	 Updating all plugins!
+[2025-06-09 22:56:40.042]	 
+[2025-06-09 22:56:40.529]	   "tmux-yank" update success
+[2025-06-09 22:56:40.532]	     | Already up to date.
+[2025-06-09 22:56:40.540]	   "tmux-cpu" update success
+[2025-06-09 22:56:40.543]	     | Already up to date.
+[2025-06-09 22:56:40.565]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-09 22:56:40.638]	 Done.
+
+[2025-06-12 18:26:18.511]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-06-12 18:26:18.522]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-06-12 18:26:18.576]	 Already installed "tmux-yank"
+[2025-06-12 18:26:18.577]	 Already installed "tmux-cpu"
+[2025-06-12 18:26:18.588]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-06-12 18:26:18.608]	 Updating all plugins!
+[2025-06-12 18:26:18.609]	 
+[2025-06-12 18:26:19.045]	   "tmux-yank" update success
+[2025-06-12 18:26:19.047]	     | Already up to date.
+[2025-06-12 18:26:19.052]	   "tmux-cpu" update success
+[2025-06-12 18:26:19.054]	     | Already up to date.
+[2025-06-12 18:26:19.065]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-12 18:26:19.127]	 Done.
+
+[2025-06-20 12:53:13.490]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-06-20 12:53:13.502]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-06-20 12:53:13.561]	 Already installed "tmux-yank"
+[2025-06-20 12:53:13.561]	 Already installed "tmux-cpu"
+[2025-06-20 12:53:13.573]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-06-20 12:53:13.595]	 Updating all plugins!
+[2025-06-20 12:53:13.596]	 
+[2025-06-20 12:53:14.078]	   "tmux-cpu" update success
+[2025-06-20 12:53:14.078]	   "tmux-yank" update success
+[2025-06-20 12:53:14.081]	     | Already up to date.
+[2025-06-20 12:53:14.081]	     | Already up to date.
+[2025-06-20 12:53:14.094]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-20 12:53:14.161]	 Done.
+
+[2025-06-20 17:40:03.162]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-06-20 17:40:03.174]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-06-20 17:40:03.226]	 Already installed "tmux-yank"
+[2025-06-20 17:40:03.226]	 Already installed "tmux-cpu"
+[2025-06-20 17:40:03.237]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-06-20 17:40:03.258]	 Updating all plugins!
+[2025-06-20 17:40:03.258]	 
+[2025-06-20 17:40:03.721]	   "tmux-yank" update success
+[2025-06-20 17:40:03.724]	     | Already up to date.
+[2025-06-20 17:40:03.741]	   "tmux-cpu" update success
+[2025-06-20 17:40:03.744]	     | Already up to date.
+[2025-06-20 17:40:03.754]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-20 17:40:03.814]	 Done.
+
+[2025-06-20 23:09:15.409]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-06-20 23:09:15.420]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-06-20 23:09:15.483]	 Already installed "tmux-yank"
+[2025-06-20 23:09:15.485]	 Already installed "tmux-cpu"
+[2025-06-20 23:09:15.496]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-06-20 23:09:15.524]	 Updating all plugins!
+[2025-06-20 23:09:15.524]	 
+[2025-06-20 23:09:15.931]	   "tmux-yank" update success
+[2025-06-20 23:09:15.934]	     | Already up to date.
+[2025-06-20 23:09:15.953]	   "tmux-cpu" update success
+[2025-06-20 23:09:15.955]	     | Already up to date.
+[2025-06-20 23:09:15.966]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-20 23:09:16.016]	 Done.
+
+[2025-06-22 00:15:56.197]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-06-22 00:15:56.208]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-06-22 00:15:56.264]	 Already installed "tmux-yank"
+[2025-06-22 00:15:56.264]	 Already installed "tmux-cpu"
+[2025-06-22 00:15:56.275]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-06-22 00:15:56.296]	 Updating all plugins!
+[2025-06-22 00:15:56.296]	 
+[2025-06-22 00:15:56.740]	   "tmux-cpu" update success
+[2025-06-22 00:15:56.740]	   "tmux-yank" update success
+[2025-06-22 00:15:56.743]	     | Already up to date.
+[2025-06-22 00:15:56.743]	     | Already up to date.
+[2025-06-22 00:15:56.754]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-22 00:15:56.804]	 Done.
+
+[2025-07-03 18:47:05.364]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-07-03 18:47:05.376]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-03 18:47:05.429]	 Already installed "tmux-yank"
+[2025-07-03 18:47:05.429]	 Already installed "tmux-cpu"
+[2025-07-03 18:47:05.441]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-03 18:47:05.462]	 Updating all plugins!
+[2025-07-03 18:47:05.463]	 
+[2025-07-03 18:47:05.896]	   "tmux-yank" update success
+[2025-07-03 18:47:05.896]	   "tmux-cpu" update success
+[2025-07-03 18:47:05.899]	     | Already up to date.
+[2025-07-03 18:47:05.899]	     | Already up to date.
+[2025-07-03 18:47:05.911]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-03 18:47:05.965]	 Done.
+
+[2025-07-07 21:35:43.702]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-07-07 21:35:43.713]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-07 21:35:43.763]	 Already installed "tmux-yank"
+[2025-07-07 21:35:43.764]	 Already installed "tmux-cpu"
+[2025-07-07 21:35:43.774]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-07 21:35:43.794]	 Updating all plugins!
+[2025-07-07 21:35:43.794]	 
+[2025-07-07 21:35:44.233]	   "tmux-cpu" update success
+[2025-07-07 21:35:44.233]	   "tmux-yank" update success
+[2025-07-07 21:35:44.235]	     | Already up to date.
+[2025-07-07 21:35:44.236]	     | Already up to date.
+[2025-07-07 21:35:44.246]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-07 21:35:44.296]	 Done.
+
+[2025-07-07 21:35:56.324]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-07-07 21:35:56.335]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-07 21:35:56.384]	 Already installed "tmux-yank"
+[2025-07-07 21:35:56.385]	 Already installed "tmux-cpu"
+[2025-07-07 21:35:56.395]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-07 21:35:56.415]	 Updating all plugins!
+[2025-07-07 21:35:56.415]	 
+[2025-07-07 21:35:56.845]	   "tmux-cpu" update success
+[2025-07-07 21:35:56.847]	     | Already up to date.
+[2025-07-07 21:35:56.848]	   "tmux-yank" update success
+[2025-07-07 21:35:56.850]	     | Already up to date.
+[2025-07-07 21:35:56.861]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-07 21:35:56.912]	 Done.
+
+[2025-07-07 21:44:51.857]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-07-07 21:44:51.867]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-07 21:44:51.916]	 Already installed "tmux-cpu"
+[2025-07-07 21:44:51.916]	 Already installed "tmux-yank"
+[2025-07-07 21:44:51.926]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-07 21:44:51.946]	 Updating all plugins!
+[2025-07-07 21:44:51.946]	 
+[2025-07-07 21:44:52.372]	   "tmux-yank" update success
+[2025-07-07 21:44:52.375]	     | Already up to date.
+[2025-07-07 21:44:52.376]	   "tmux-cpu" update success
+[2025-07-07 21:44:52.378]	     | Already up to date.
+[2025-07-07 21:44:52.388]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-07 21:44:52.439]	 Done.
+
+[2025-07-07 21:46:39.430]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-07-07 21:46:39.440]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-07 21:46:39.489]	 Already installed "tmux-yank"
+[2025-07-07 21:46:39.489]	 Already installed "tmux-cpu"
+[2025-07-07 21:46:39.499]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-07 21:46:39.519]	 Updating all plugins!
+[2025-07-07 21:46:39.520]	 
+[2025-07-07 21:46:39.968]	   "tmux-cpu" update success
+[2025-07-07 21:46:39.971]	     | Already up to date.
+[2025-07-07 21:46:39.972]	   "tmux-yank" update success
+[2025-07-07 21:46:39.974]	     | Already up to date.
+[2025-07-07 21:46:39.985]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-07 21:46:40.035]	 Done.
+
+[2025-07-07 21:48:36.364]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-07-07 21:48:36.374]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-07 21:48:36.423]	 Already installed "tmux-cpu"
+[2025-07-07 21:48:36.423]	 Already installed "tmux-yank"
+[2025-07-07 21:48:36.434]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-07 21:48:36.453]	 Updating all plugins!
+[2025-07-07 21:48:36.454]	 
+[2025-07-07 21:48:36.880]	   "tmux-yank" update success
+[2025-07-07 21:48:36.883]	     | Already up to date.
+[2025-07-07 21:48:36.905]	   "tmux-cpu" update success
+[2025-07-07 21:48:36.907]	     | Already up to date.
+[2025-07-07 21:48:36.918]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-07 21:48:36.968]	 Done.
+
+[2025-07-07 21:48:50.138]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-07-07 21:48:50.148]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-07 21:48:50.197]	 Already installed "tmux-yank"
+[2025-07-07 21:48:50.197]	 Already installed "tmux-cpu"
+[2025-07-07 21:48:50.207]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-07 21:48:50.227]	 Updating all plugins!
+[2025-07-07 21:48:50.228]	 
+[2025-07-07 21:48:50.687]	   "tmux-cpu" update success
+[2025-07-07 21:48:50.687]	   "tmux-yank" update success
+[2025-07-07 21:48:50.690]	     | Already up to date.
+[2025-07-07 21:48:50.690]	     | Already up to date.
+[2025-07-07 21:48:50.701]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-07 21:48:50.751]	 Done.
+
+[2025-07-07 21:48:54.670]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-07-07 21:48:54.681]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-07 21:48:54.729]	 Already installed "tmux-yank"
+[2025-07-07 21:48:54.730]	 Already installed "tmux-cpu"
+[2025-07-07 21:48:54.740]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-07 21:48:54.759]	 Updating all plugins!
+[2025-07-07 21:48:54.760]	 
+[2025-07-07 21:48:55.195]	   "tmux-cpu" update success
+[2025-07-07 21:48:55.195]	   "tmux-yank" update success
+[2025-07-07 21:48:55.197]	     | Already up to date.
+[2025-07-07 21:48:55.198]	     | Already up to date.
+[2025-07-07 21:48:55.208]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-07 21:48:55.259]	 Done.
+
+[2025-07-07 21:49:30.686]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-07-07 21:49:30.697]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-07 21:49:30.746]	 Already installed "tmux-cpu"
+[2025-07-07 21:49:30.746]	 Already installed "tmux-yank"
+[2025-07-07 21:49:30.756]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-07 21:49:30.776]	 Updating all plugins!
+[2025-07-07 21:49:30.777]	 
+[2025-07-07 21:49:31.208]	   "tmux-yank" update success
+[2025-07-07 21:49:31.210]	     | Already up to date.
+[2025-07-07 21:49:31.212]	   "tmux-cpu" update success
+[2025-07-07 21:49:31.214]	     | Already up to date.
+[2025-07-07 21:49:31.224]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-07 21:49:31.274]	 Done.
+
+[2025-07-07 21:55:53.907]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-07-07 21:55:53.917]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-07 21:55:53.966]	 Already installed "tmux-yank"
+[2025-07-07 21:55:53.966]	 Already installed "tmux-cpu"
+[2025-07-07 21:55:53.976]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-07 21:55:53.996]	 Updating all plugins!
+[2025-07-07 21:55:53.996]	 
+[2025-07-07 21:55:54.404]	   "tmux-yank" update success
+[2025-07-07 21:55:54.407]	     | Already up to date.
+[2025-07-07 21:55:54.444]	   "tmux-cpu" update success
+[2025-07-07 21:55:54.447]	     | Already up to date.
+[2025-07-07 21:55:54.457]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-07 21:55:54.507]	 Done.
+
+[2025-07-07 21:56:17.757]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-07-07 21:56:17.768]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-07 21:56:17.816]	 Already installed "tmux-yank"
+[2025-07-07 21:56:17.816]	 Already installed "tmux-cpu"
+[2025-07-07 21:56:17.826]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-07 21:56:17.846]	 Updating all plugins!
+[2025-07-07 21:56:17.846]	 
+[2025-07-07 21:56:18.295]	   "tmux-yank" update success
+[2025-07-07 21:56:18.298]	     | Already up to date.
+[2025-07-07 21:56:18.299]	   "tmux-cpu" update success
+[2025-07-07 21:56:18.301]	     | Already up to date.
+[2025-07-07 21:56:18.311]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-07 21:56:18.361]	 Done.
+
+[2025-07-07 21:56:49.078]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-07-07 21:56:49.088]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-07 21:56:49.136]	 Already installed "tmux-yank"
+[2025-07-07 21:56:49.137]	 Already installed "tmux-cpu"
+[2025-07-07 21:56:49.147]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-07 21:56:49.167]	 Updating all plugins!
+[2025-07-07 21:56:49.167]	 
+[2025-07-07 21:56:49.684]	   "tmux-yank" update success
+[2025-07-07 21:56:49.684]	   "tmux-cpu" update success
+[2025-07-07 21:56:49.687]	     | Already up to date.
+[2025-07-07 21:56:49.688]	     | Already up to date.
+[2025-07-07 21:56:49.700]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-07 21:56:49.761]	 Done.
+
+[2025-07-07 21:58:30.254]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-07-07 21:58:30.265]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-07 21:58:30.312]	 Already installed "tmux-cpu"
+[2025-07-07 21:58:30.313]	 Already installed "tmux-yank"
+[2025-07-07 21:58:30.323]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-07 21:58:30.342]	 Updating all plugins!
+[2025-07-07 21:58:30.342]	 
+[2025-07-07 21:58:30.765]	   "tmux-yank" update success
+[2025-07-07 21:58:30.767]	     | Already up to date.
+[2025-07-07 21:58:30.791]	   "tmux-cpu" update success
+[2025-07-07 21:58:30.794]	     | Already up to date.
+[2025-07-07 21:58:30.805]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-07 21:58:30.856]	 Done.
+
+[2025-07-07 21:58:52.218]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-07-07 21:58:52.229]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-07 21:58:52.279]	 Already installed "tmux-cpu"
+[2025-07-07 21:58:52.279]	 Already installed "tmux-yank"
+[2025-07-07 21:58:52.290]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-07 21:58:52.311]	 Updating all plugins!
+[2025-07-07 21:58:52.311]	 
+[2025-07-07 21:58:52.778]	   "tmux-cpu" update success
+[2025-07-07 21:58:52.778]	   "tmux-yank" update success
+[2025-07-07 21:58:52.781]	     | Already up to date.
+[2025-07-07 21:58:52.781]	     | Already up to date.
+[2025-07-07 21:58:52.793]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-07 21:58:52.845]	 Done.
+
+[2025-07-07 21:59:18.346]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-07-07 21:59:18.356]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-07 21:59:18.404]	 Already installed "tmux-cpu"
+[2025-07-07 21:59:18.405]	 Already installed "tmux-yank"
+[2025-07-07 21:59:18.415]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-07 21:59:18.434]	 Updating all plugins!
+[2025-07-07 21:59:18.434]	 
+[2025-07-07 21:59:18.882]	   "tmux-cpu" update success
+[2025-07-07 21:59:18.884]	     | Already up to date.
+[2025-07-07 21:59:18.886]	   "tmux-yank" update success
+[2025-07-07 21:59:18.888]	     | Already up to date.
+[2025-07-07 21:59:18.898]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-07 21:59:18.948]	 Done.
+
+[2025-07-07 21:59:26.643]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-07-07 21:59:26.654]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-07 21:59:26.702]	 Already installed "tmux-cpu"
+[2025-07-07 21:59:26.702]	 Already installed "tmux-yank"
+[2025-07-07 21:59:26.712]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-07 21:59:26.733]	 Updating all plugins!
+[2025-07-07 21:59:26.733]	 
+[2025-07-07 21:59:27.179]	   "tmux-cpu" update success
+[2025-07-07 21:59:27.179]	   "tmux-yank" update success
+[2025-07-07 21:59:27.181]	     | Already up to date.
+[2025-07-07 21:59:27.181]	     | Already up to date.
+[2025-07-07 21:59:27.192]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-07 21:59:27.242]	 Done.
+
+[2025-07-07 21:59:42.753]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-07-07 21:59:42.763]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-07 21:59:42.812]	 Already installed "tmux-cpu"
+[2025-07-07 21:59:42.813]	 Already installed "tmux-yank"
+[2025-07-07 21:59:42.823]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-07 21:59:42.842]	 Updating all plugins!
+[2025-07-07 21:59:42.843]	 
+[2025-07-07 21:59:43.273]	   "tmux-yank" update success
+[2025-07-07 21:59:43.275]	     | Already up to date.
+[2025-07-07 21:59:43.276]	   "tmux-cpu" update success
+[2025-07-07 21:59:43.278]	     | Already up to date.
+[2025-07-07 21:59:43.289]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-07 21:59:43.338]	 Done.
+
+[2025-07-07 22:01:47.987]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-07-07 22:01:47.997]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-07 22:01:48.047]	 Already installed "tmux-cpu"
+[2025-07-07 22:01:48.048]	 Already installed "tmux-yank"
+[2025-07-07 22:01:48.060]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-07 22:01:48.080]	 Updating all plugins!
+[2025-07-07 22:01:48.081]	 
+[2025-07-07 22:01:48.514]	   "tmux-yank" update success
+[2025-07-07 22:01:48.516]	     | Already up to date.
+[2025-07-07 22:01:48.518]	   "tmux-cpu" update success
+[2025-07-07 22:01:48.520]	     | Already up to date.
+[2025-07-07 22:01:48.531]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-07 22:01:48.581]	 Done.
+
+[2025-07-07 22:02:00.875]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-07-07 22:02:00.886]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-07 22:02:00.938]	 Already installed "tmux-cpu"
+[2025-07-07 22:02:00.938]	 Already installed "tmux-yank"
+[2025-07-07 22:02:00.948]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-07 22:02:00.968]	 Updating all plugins!
+[2025-07-07 22:02:00.968]	 
+[2025-07-07 22:02:01.405]	   "tmux-yank" update success
+[2025-07-07 22:02:01.408]	     | Already up to date.
+[2025-07-07 22:02:01.409]	   "tmux-cpu" update success
+[2025-07-07 22:02:01.411]	     | Already up to date.
+[2025-07-07 22:02:01.422]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-07 22:02:01.471]	 Done.
+
+[2025-07-07 22:02:33.132]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-07-07 22:02:33.143]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-07 22:02:33.191]	 Already installed "tmux-cpu"
+[2025-07-07 22:02:33.191]	 Already installed "tmux-yank"
+[2025-07-07 22:02:33.201]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-07 22:02:33.221]	 Updating all plugins!
+[2025-07-07 22:02:33.221]	 
+[2025-07-07 22:02:33.656]	   "tmux-yank" update success
+[2025-07-07 22:02:33.658]	     | Already up to date.
+[2025-07-07 22:02:33.660]	   "tmux-cpu" update success
+[2025-07-07 22:02:33.662]	     | Already up to date.
+[2025-07-07 22:02:33.672]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-07 22:02:33.722]	 Done.
+
+[2025-07-07 22:03:36.457]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-07-07 22:03:36.468]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-07 22:03:36.519]	 Already installed "tmux-cpu"
+[2025-07-07 22:03:36.519]	 Already installed "tmux-yank"
+[2025-07-07 22:03:36.530]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-07 22:03:36.551]	 Updating all plugins!
+[2025-07-07 22:03:36.552]	 
+[2025-07-07 22:03:36.958]	   "tmux-yank" update success
+[2025-07-07 22:03:36.960]	     | Already up to date.
+[2025-07-07 22:03:36.990]	   "tmux-cpu" update success
+[2025-07-07 22:03:36.993]	     | Already up to date.
+[2025-07-07 22:03:37.003]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-07 22:03:37.054]	 Done.
+
+[2025-07-07 22:04:31.918]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-07-07 22:04:31.928]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-07 22:04:31.983]	 Already installed "tmux-cpu"
+[2025-07-07 22:04:31.983]	 Already installed "tmux-yank"
+[2025-07-07 22:04:31.994]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-07 22:04:32.014]	 Updating all plugins!
+[2025-07-07 22:04:32.014]	 
+[2025-07-07 22:04:32.450]	   "tmux-cpu" update success
+[2025-07-07 22:04:32.453]	     | Already up to date.
+[2025-07-07 22:04:32.454]	   "tmux-yank" update success
+[2025-07-07 22:04:32.456]	     | Already up to date.
+[2025-07-07 22:04:32.467]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-07 22:04:32.516]	 Done.
+
+[2025-07-26 10:46:38.657]	 List of discovered tpm plugins: tmux-plugins/tmux-yank tmux-plugins/tmux-cpu
+[2025-07-26 10:46:38.668]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/install_plugins
+[2025-07-26 10:46:38.721]	 Already installed "tmux-yank"
+[2025-07-26 10:46:38.721]	 Already installed "tmux-cpu"
+[2025-07-26 10:46:38.732]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/update_plugins all
+[2025-07-26 10:46:38.753]	 Updating all plugins!
+[2025-07-26 10:46:38.753]	 
+[2025-07-26 10:46:39.178]	   "tmux-yank" update success
+[2025-07-26 10:46:39.181]	     | Already up to date.
+[2025-07-26 10:46:39.207]	   "tmux-cpu" update success
+[2025-07-26 10:46:39.209]	     | Already up to date.
+[2025-07-26 10:46:39.221]	 Invoking /Users/stearns/.tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-26 10:46:39.273]	 Done.
+

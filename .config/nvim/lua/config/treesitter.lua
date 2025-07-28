@@ -1,0 +1,42 @@
+require("nvim-treesitter.configs").setup {
+  ensure_installed = {
+    "go",
+    "python",
+    "c",
+    "cpp",
+    "lua",
+    "vim",
+    "json",
+    "toml",
+    "java",
+    "php",
+    "bash",
+    "cmake",
+    "css",
+    "dockerfile",
+    "dot",
+    "gitignore",
+    "gomod",
+    "gosum",
+    "gotmpl",
+    "html",
+    "javascript",
+    "latex",
+    "make",
+    "perl",
+    "proto",
+    "regex",
+    "rust",
+    "ruby",
+    "tmux",
+    "typescript",
+    "templ",
+    "xml",
+    "yaml",
+  },
+  ignore_install = {}, -- List of parsers to ignore installing
+  highlight = {
+    enable = true, -- false will disable the whole extension
+    disable = { "help" }, -- list of language that will be disabled
+  },
+}

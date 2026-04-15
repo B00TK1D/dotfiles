@@ -212,3 +212,19 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Added by Antigravity
+export PATH="/Users/stearns/.antigravity/antigravity/bin:$PATH"
+
+export CURSOR_API_KEY=KEY
+export PATH="$(brew --prefix openssl@3)/bin:$PATH"
+
+# bun completions
+[ -s "/Users/stearns/.bun/_bun" ] && source "/Users/stearns/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+#alias opencode='bun /Users/stearns/workspace/opencode/packages/opencode/src/index.ts'
+alias opencode='/Users/stearns/workspace/opencode/packages/opencode/dist/opencode-darwin-arm64/bin/opencode'

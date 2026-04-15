@@ -114,7 +114,7 @@ end
 
 local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
-local lspconfig = require("lspconfig")
+--local lspconfig = require("lspconfig")
 
 if utils.executable("pylsp") then
   -- local venv_path = os.getenv("VIRTUAL_ENV")
@@ -125,7 +125,7 @@ if utils.executable("pylsp") then
   --  else
   --    py_path = vim.g.python3_host_prog
   --  end
-  lspconfig.pylsp.setup {
+  vim.lsp.config["pylsp"] = {
     on_attach = custom_attach,
     settings = {
       pylsp = {
@@ -156,6 +156,7 @@ if utils.executable("pylsp") then
     },
     capabilities = capabilities,
   }
+  vim.lsp.enable("pylsp")
 else
   vim.notify("pylsp not found!", vim.log.levels.WARN, { title = "Nvim-config" })
 end
@@ -170,7 +171,7 @@ end
 -- end
 
 if utils.executable("ltex-ls") then
-  lspconfig.ltex.setup {
+  vim.lsp.config["ltex"] = {
     on_attach = custom_attach,
     cmd = { "ltex-ls" },
     filetypes = { "text", "plaintex", "tex", "markdown" },
@@ -181,20 +182,23 @@ if utils.executable("ltex-ls") then
     },
     flags = { debounce_text_changes = 1000 },
   }
+  vim.lsp.enable("ltex")
 end
 
-lspconfig.html.setup {
+vim.lsp.config["html"] = {
   on_attach = custom_attach,
   filetypes = { "html" }
 }
-lspconfig.htmx.setup {
+--vim.lsp.enable("html")
+vim.lsp.config["html"] = {
   on_attach = custom_attach,
   filetypes = { "html" }
 }
+--vim.lsp.enable("html")
 
 
 if utils.executable("clangd") then
-  lspconfig.clangd.setup {
+  vim.lsp.config["clangd"] = {
     on_attach = custom_attach,
     capabilities = capabilities,
     filetypes = { "c", "cpp", "cc" },
@@ -206,32 +210,35 @@ if utils.executable("clangd") then
       debounce_text_changes = 1000,
     },
   }
+  vim.lsp.enable("clangd")
 end
 
 -- set up vim-language-server
 if utils.executable("vim-language-server") then
-  lspconfig.vimls.setup {
+  vim.lsp.config["vimls"] = {
     on_attach = custom_attach,
     flags = {
       debounce_text_changes = 1000,
     },
     capabilities = capabilities,
   }
+  vim.lsp.enable("vimls")
 else
   vim.notify("vim-language-server not found!", vim.log.levels.WARN, { title = "Nvim-config" })
 end
 
 -- set up bash-language-server
 if utils.executable("bash-language-server") then
-  lspconfig.bashls.setup {
+  vim.lsp.config["bashls"] = {
     on_attach = custom_attach,
     capabilities = capabilities,
   }
+  vim.lsp.enable("bashls")
 end
 
 if utils.executable("lua-language-server") then
   -- settings for lua-language-server can be found on https://github.com/LuaLS/lua-language-server/wiki/Settings .
-  lspconfig.lua_ls.setup {
+  vim.lsp.config["lua_ls"] = {
     on_attach = custom_attach,
     settings = {
       Lua = {
@@ -258,28 +265,31 @@ if utils.executable("lua-language-server") then
     },
     capabilities = capabilities,
   }
+  --vim.lsp.enable("lua_ls")
 end
 
 -- Add gopls to lspconfig
 if utils.executable("gopls") then
-  lspconfig.gopls.setup {
+  vim.lsp.config["gopls"] = {
     on_attach = custom_attach,
     capabilities = capabilities,
     flags = {
       debounce_text_changes = 1000,
     },
   }
+  vim.lsp.enable("gopls")
 end
 
 -- Add gopls to lspconfig
 if utils.executable("typescript-language-server") then
-  lspconfig.gopls.setup {
+  vim.lsp.config["tsserver"] = {
     on_attach = custom_attach,
     capabilities = capabilities,
     flags = {
       debounce_text_changes = 1000,
     },
   }
+  --vim.lsp.enable("tsserver")
 end
 
 

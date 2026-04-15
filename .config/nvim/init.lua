@@ -57,6 +57,20 @@ vim.notify = function(msg, log_level, _)
   vim.api.nvim_notify(msg, log_level, {})
 end
 
+vim.keymap.set("n", "<leader>v", function()
+  local pos = vim.api.nvim_win_get_cursor(0)  -- Save cursor position
+  local clipboard = vim.fn.getreg("+")        -- Get clipboard contents
+
+  vim.api.nvim_buf_set_lines(0, 0, -1, false, vim.split(clipboard, "\n"))  -- Replace buffer
+  vim.api.nvim_win_set_cursor(0, pos)         -- Restore cursor
+end, { desc = "Replace buffer with clipboard" })
+
+vim.keymap.set('n', '<leader>a', function()
+  local pos = vim.api.nvim_win_get_cursor(0)
+  vim.cmd('normal! ggVG"+y')
+  vim.api.nvim_win_set_cursor(0, pos)
+end, { noremap = true, silent = true })
+
 -- Make Lua errors print full stack trace
 --vim.schedule(function()
 --  local orig_notify = vim.notify

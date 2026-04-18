@@ -103,6 +103,7 @@ let s:aulist = [
       \ 'CmdwinLeave',
       \ 'InsertEnter',
       \ 'InsertChange',
+      \ 'InsertLeave',
       \ 'InsertCharPre',
       \ 'TextChanged',
       \ 'TextChangedI',

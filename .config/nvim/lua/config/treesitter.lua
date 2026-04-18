@@ -1,42 +1,76 @@
-require("nvim-treesitter.configs").setup {
-  ensure_installed = {
-    "go",
-    "python",
-    "c",
-    "cpp",
-    "lua",
-    "vim",
-    "json",
-    "toml",
-    "java",
-    "php",
-    "bash",
-    "cmake",
-    "css",
-    "dockerfile",
-    "dot",
-    "gitignore",
-    "gomod",
-    "gosum",
-    "gotmpl",
-    "html",
-    "javascript",
-    "latex",
-    "make",
-    "perl",
-    "proto",
-    "regex",
-    "rust",
-    "ruby",
-    "tmux",
-    "typescript",
-    "templ",
-    "xml",
-    "yaml",
-  },
-  ignore_install = {}, -- List of parsers to ignore installing
-  highlight = {
-    enable = true, -- false will disable the whole extension
-    disable = { "help" }, -- list of language that will be disabled
-  },
+-- a list of filetypes to install treesitter parsers and queries
+local nvim_treesitter = require("nvim-treesitter")
+local has_tree_sitter_cli = vim.fn.executable("tree-sitter") == 1
+
+local ensure_installed = {
+  "c",
+  "cpp",
+  "php",
+  "diff",
+  "go",
+  "gomod",
+  "gosum",
+  "javascript",
+  "json",
+  "lua",
+  "markdown",
+  "python",
+  "rust",
+  "sh",
+  "toml",
+  "typescript",
+  "vim",
+  "yaml",
+  "zsh",
 }
+
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = ensure_installed,
+
+  callback = function(args)
+    local ft = vim.bo[args.buf].filetype
+    local lang = vim.treesitter.language.get_lang(ft)
+    if lang == nil then
+      return
+    end
+
+    -- check if parser is available
+    local is_parser_available = vim.treesitter.language.add(lang)
+    if not is_parser_available then
+      local available_langs = vim.g.ts_available or nvim_treesitter.get_available()
+      if not vim.g.ts_available then
+        vim.g.ts_available = available_langs
+      end
+
+      if vim.tbl_contains(available_langs, lang) then
+        if not has_tree_sitter_cli then
+          if not vim.g.ts_tree_sitter_cli_warned then
+            vim.g.ts_tree_sitter_cli_warned = true
+            vim.notify(
+              "tree-sitter CLI is not installed; skipping parser auto-install",
+              vim.log.levels.WARN
+            )
+          end
+          return
+        end
+
+        -- install treesitter parsers and queries
+        local install_msg = string.format("Installing parsers and queries for %s", lang)
+        vim.print(install_msg)
+        require("nvim-treesitter").install(lang)
+      end
+    end
+
+    if vim.treesitter.language.add(lang) then
+      -- start treesitter highlighting
+      vim.treesitter.start(args.buf, lang)
+
+      -- the following two statements will enable treesitter folding
+      -- vim.wo[0][0].foldexpr = "v:lua.vim.treesitter.foldexpr()"
+      -- vim.wo[0][0].foldmethod = "expr"
+
+      -- enable treesitter-based indentation
+      -- vim.bo.indentexpr = "v:lua.require'nvim-treesitter'.indentexpr()"
+    end
+  end,
+})

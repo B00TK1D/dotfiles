@@ -10,23 +10,6 @@ function! s:Single_quote(str) abort
   return "'" . substitute(copy(a:str), "'", "''", 'g') . "'"
 endfunction
 
-" Check the syntax group in the current cursor position, see
-" https://stackoverflow.com/q/9464844/6064933 and
-" https://jordanelver.co.uk/blog/2015/05/27/working-with-vim-colorschemes/
-function! utils#SynGroup() abort
-  if !exists('*synstack')
-    return
-  endif
-  echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
-endfunction
-
-" Check if a colorscheme exists in runtimepath.
-" The following two functions are inspired by https://stackoverflow.com/a/5703164/6064933.
-function! utils#HasColorscheme(name) abort
-  let l:pat = printf('colors/%s.vim', a:name)
-  return !empty(globpath(&runtimepath, l:pat))
-endfunction
-
 " Custom fold expr, adapted from https://vi.stackexchange.com/a/9094/15292
 function! utils#VimFolds(lnum) abort
   " get content of current line and the line below
@@ -111,21 +94,6 @@ function! utils#MoveSelection(direction) abort
 endfunction
 
 
-function! utils#Get_titlestr() abort
-  let l:title_str = ''
-  if g:is_linux
-      let l:title_str = hostname() . '  '
-  endif
-
-  let l:buf_path = expand('%:p:~')
-  let l:title_str = l:title_str . l:buf_path . '  '
-  if &buflisted && l:buf_path != ""
-    let l:title_str = l:title_str . strftime('%Y-%m-%d %H:%M:%S%z', getftime(expand('%')))
-  endif
-
-  return l:title_str
-endfunction
-
 " Output current time or unix timestamp in human-readable format.
 function! utils#iso_time(timestamp) abort
   " Get current datetime
@@ -144,27 +112,6 @@ function! utils#iso_time(timestamp) abort
   endif
   return strftime('%Y-%m-%d %H:%M:%S%z', l:timestamp)
 
-endfunction
-
-" Check if we are inside a Git repo.
-function! utils#Inside_git_repo() abort
-  let res = system('git rev-parse --is-inside-work-tree')
-  if match(res, 'true') == -1
-    return v:false
-  else
-    " Manually trigger a special user autocmd InGitRepo (used lazyloading.
-    doautocmd User InGitRepo
-    return v:true
-  endif
-endfunction
-
-function! utils#GetGitBranch()
-  let l:res = systemlist('git rev-parse --abbrev-ref HEAD')[0]
-  if match(l:res, 'fatal') != -1
-    return ''
-  else
-    return l:res
-  endif
 endfunction
 
 " Redirect command output to a register for later processing.

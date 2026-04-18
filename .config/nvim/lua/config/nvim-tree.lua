@@ -1,5 +1,7 @@
 local keymap = vim.keymap
 local nvim_tree = require("nvim-tree")
+local api = require("nvim-tree.api")
+local tree_state = require("config.nvim-tree-state")
 
 nvim_tree.setup {
   auto_reload_on_write = true,
@@ -40,12 +42,8 @@ nvim_tree.setup {
     update_cwd = false,
     ignore_list = {},
   },
-  system_open = {
-    cmd = "",
-    args = {},
-  },
   diagnostics = {
-    enable = true,
+    enable = false,
     show_on_dirs = false,
     icons = {
       hint = "",
@@ -55,7 +53,7 @@ nvim_tree.setup {
     },
   },
   filters = {
-    dotfiles = true,
+    dotfiles = false,
     custom = {},
     exclude = {},
   },
@@ -102,7 +100,17 @@ nvim_tree.setup {
   },
 }
 
-keymap.set("n", "<leader>ls", require("nvim-tree.api").tree.focus, {
+tree_state.setup()
+
+keymap.set("n", "<leader>ls", api.tree.focus, {
   silent = true,
-  desc = "toggle nvim-tree",
+  desc = "focus nvim-tree",
+})
+
+keymap.set("n", "<leader>ll", function()
+  api.tree.focus()
+  vim.cmd("wincmd l")
+end, {
+  silent = true,
+  desc = "focus right content pane",
 })

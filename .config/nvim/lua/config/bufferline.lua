@@ -1,6 +1,6 @@
 require("bufferline").setup {
   options = {
-    numbers = "buffer_id",
+    numbers = "none",
     close_command = "bdelete! %d",
     right_mouse_command = nil,
     left_mouse_command = "buffer %d",
@@ -28,7 +28,7 @@ require("bufferline").setup {
       local should_filter = vim.tbl_contains(exclude_ft, cur_ft)
 
       if should_filter then
-        return true
+        return false
       end
 
       return true
@@ -44,3 +44,5 @@ require("bufferline").setup {
     sort_by = "id",
   },
 }
+
+

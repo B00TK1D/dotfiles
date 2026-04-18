@@ -1,6 +1,16 @@
 -- Setup nvim-cmp.
 local cmp = require("cmp")
-local lspkind = require("lspkind")
+
+-- The extentions needed by nvim-cmp should be loaded beforehand
+require("cmp_nvim_lsp")
+require("cmp_path")
+require("cmp_buffer")
+require("cmp_omni")
+require("cmp_nvim_ultisnips")
+require("cmp_cmdline")
+require("cmp_copilot")
+
+local MiniIcons = require("mini.icons")
 
 cmp.setup {
   snippet = {
@@ -31,11 +41,11 @@ cmp.setup {
     ["<C-f>"] = cmp.mapping.scroll_docs(4),
   },
   sources = {
+    { name = "copilot" }, -- For GitHub Copilot
     { name = "nvim_lsp" }, -- For nvim-lsp
     { name = "ultisnips" }, -- For ultisnips user.
     { name = "path" }, -- for path completion
     { name = "buffer", keyword_length = 2 }, -- for buffer word completion
-    { name = "emoji", insert = true }, -- emoji completion
   },
   completion = {
     keyword_length = 1,
@@ -44,19 +54,14 @@ cmp.setup {
   view = {
     entries = "custom",
   },
+  -- solution taken from https://github.com/echasnovski/mini.nvim/issues/1007#issuecomment-2258929830
   formatting = {
-    format = lspkind.cmp_format {
-      mode = "symbol_text",
-      menu = {
-        nvim_lsp = "[LSP]",
-        ultisnips = "[US]",
-        nvim_lua = "[Lua]",
-        path = "[Path]",
-        buffer = "[Buffer]",
-        emoji = "[Emoji]",
-        omni = "[Omni]",
-      },
-    },
+    format = function(_, vim_item)
+      local icon, hl = MiniIcons.get("lsp", vim_item.kind)
+      vim_item.kind = icon .. " " .. vim_item.kind
+      vim_item.kind_hl_group = hl
+      return vim_item
+    end,
   },
 }
 
@@ -67,6 +72,23 @@ cmp.setup.filetype("tex", {
     { name = "buffer", keyword_length = 2 }, -- for buffer word completion
     { name = "path" }, -- for path completion
   },
+})
+
+cmp.setup.cmdline("/", {
+  mapping = cmp.mapping.preset.cmdline(),
+  sources = {
+    { name = "buffer" },
+  },
+})
+
+cmp.setup.cmdline(":", {
+  mapping = cmp.mapping.preset.cmdline(),
+  sources = cmp.config.sources({
+    { name = "path" },
+  }, {
+    { name = "cmdline" },
+  }),
+  matching = { disallow_symbol_nonprefix_matching = false },
 })
 
 --  see https://github.com/hrsh7th/nvim-cmp/wiki/Menu-Appearance#how-to-add-visual-studio-code-dark-theme-colors-to-the-menu

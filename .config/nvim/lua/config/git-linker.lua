@@ -26,7 +26,7 @@ gitlinker.setup {
       return url
     end,
   },
-  -- mappings = nil,
+  mappings = nil,
 }
 
 keymap.set({ "n", "v" }, "<leader>tl", function()
@@ -34,16 +34,16 @@ keymap.set({ "n", "v" }, "<leader>tl", function()
   gitlinker.get_buf_range_url(mode)
 end, {
   silent = true,
-  desc = "get git permlink",
+  desc = "Git: get permlink",
 })
 
-keymap.set("n", "<leader>tb", function()
+keymap.set("n", "<leader>to", function()
   gitlinker.get_repo_url {
     action_callback = gitlinker.actions.open_in_browser,
   }
 end, {
   silent = true,
-  desc = "browse repo in browser",
+  desc = "Git: browse repo in browser",
 })
 
 vim.cmd("nunmap <leader>gy")

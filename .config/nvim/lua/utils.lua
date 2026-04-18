@@ -1,20 +1,19 @@
 local fn = vim.fn
+local version = vim.version
 
 local M = {}
 
+--- Check if an executable exists
+--- @param name string An executable name/path
+--- @return boolean
 function M.executable(name)
-  if fn.executable(name) > 0 then
-    return true
-  end
-
-  return false
+  return fn.executable(name) > 0
 end
 
 --- check whether a feature exists in Nvim
---- @feat: string
----   the feature name, like `nvim-0.7` or `unix`.
---- return: bool
-M.has = function(feat)
+--- @param feat string the feature name, like `nvim-0.7` or `unix`.
+--- @return boolean
+function M.has(feat)
   if fn.has(feat) == 1 then
     return true
   end
@@ -33,8 +32,9 @@ end
 
 --- Generate random integers in the range [Low, High], inclusive,
 --- adapted from https://stackoverflow.com/a/12739441/6064933
---- @low: the lower value for this range
---- @high: the upper value for this range
+--- @param low integer the lower value for this range
+--- @param high integer the upper value for this range
+--- @return integer
 function M.rand_int(low, high)
   -- Use lua to generate random int, see also: https://stackoverflow.com/a/20157671/6064933
   math.randomseed(os.time())
@@ -43,17 +43,92 @@ function M.rand_int(low, high)
 end
 
 --- Select a random element from a sequence/list.
---- @seq: the sequence to choose an element
+--- @param seq any[] the sequence to choose an element
 function M.rand_element(seq)
   local idx = M.rand_int(1, #seq)
 
   return seq[idx]
 end
 
-function M.add_pack(name)
-  local status, error = pcall(vim.cmd, "packadd " .. name)
+--- check if the current nvim version is compatible with the allowed version
+--- @param expected_version string
+--- @return boolean
+function M.is_compatible_version(expected_version)
+  -- check if we have the latest stable version of nvim
+  local expect_ver = version.parse(expected_version)
+  local actual_ver = vim.version()
 
-  return status
+  if expect_ver == nil then
+    local msg = string.format("Unsupported version string: %s", expected_version)
+    vim.api.nvim_echo({ { msg } }, true, { err = true })
+    return false
+  end
+
+  local result = version.cmp(expect_ver, actual_ver)
+  if result ~= 0 then
+    local _ver = string.format("%s.%s.%s", actual_ver.major, actual_ver.minor, actual_ver.patch)
+    local msg = string.format(
+      "Expect nvim version %s, but your current nvim version is %s. Use at your own risk!",
+      expected_version,
+      _ver
+    )
+    vim.api.nvim_echo({ { msg } }, true, { err = true })
+  end
+
+  return true
+end
+
+--- check if we are inside a git repo
+--- @return boolean
+function M.inside_git_repo()
+  local result = vim.system({ "git", "rev-parse", "--is-inside-work-tree" }, { text = true }):wait()
+  if result.code ~= 0 then
+    return false
+  end
+
+  -- Manually trigger a special user autocmd InGitRepo (used lazyloading.
+  vim.cmd([[doautocmd User InGitRepo]])
+
+  return true
+end
+
+--- Get custom title string for the window title.
+--- Shows hostname (on Linux), buffer path, and last modified time.
+--- @return string
+function M.get_titlestr()
+  local title_str = ""
+  if vim.g.is_linux then
+    title_str = vim.fn.hostname() .. "  "
+  end
+
+  local buf_path = vim.fn.expand("%:p:~")
+  title_str = title_str .. buf_path .. "  "
+  if vim.bo.buflisted and buf_path ~= "" then
+    local mod_time = vim.fn.strftime("%Y-%m-%d %H:%M:%S%z", vim.fn.getftime(vim.fn.expand("%")))
+    title_str = title_str .. mod_time
+  end
+
+  return title_str
+end
+
+--- Get the current virtual env
+--- @return string
+function M.get_virtual_env()
+  local conda_env = os.getenv("CONDA_DEFAULT_ENV")
+  -- venv_path is the complete path to the virtual env
+  local venv_path = os.getenv("VIRTUAL_ENV")
+
+  local venv_name = ""
+
+  if venv_path == nil then
+    if conda_env ~= nil then
+      venv_name = conda_env
+    end
+  else
+    venv_name = vim.fn.fnamemodify(venv_path, ":t")
+  end
+
+  return venv_name
 end
 
 return M

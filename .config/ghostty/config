@@ -1,0 +1,11 @@
+background = #000000
+foreground = #ffffff
+selection-foreground = #ffffff
+selection-background = #3a3a3a
+
+font-family = "FiraMono Nerd Font Mono"
+font-size = 14
+window-padding-x = 8
+window-padding-y = 6
+
+working-directory = "~/workspace"

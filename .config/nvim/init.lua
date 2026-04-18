@@ -9,77 +9,33 @@
 -- Blog: https://jdhao.github.io/
 -- GitHub: https://github.com/jdhao
 -- StackOverflow: https://stackoverflow.com/users/6064933/jdhao
+local utils = require("utils")
+
 vim.loader.enable()
 
-local version = vim.version
+local expected_version = "0.12.1"
+utils.is_compatible_version(expected_version)
 
--- check if we have the latest stable version of nvim
-local expected_ver = "0.11.2"
-local ev = version.parse(expected_ver)
-local actual_ver = version()
+-- some global settings
+require("globals")
 
---if version.cmp(ev, actual_ver) ~= 0 then
---  local _ver = string.format("%s.%s.%s", actual_ver.major, actual_ver.minor, actual_ver.patch)
---  local msg = string.format("Expect nvim %s, but got %s instead. Use at your own risk!", expected_ver, _ver)
---  vim.api.nvim_err_writeln(msg)
---end
+-- setting options in nvim
+require("options")
 
-local core_conf_files = {
-  "globals.lua", -- some global settings
-  "options.vim", -- setting options in nvim
-  "autocommands.vim", -- various autocommands
-  "mappings.lua", -- all the user-defined mappings
-  "plugins.vim", -- all the plugins installed and their configurations
-  "colorschemes.lua", -- colorscheme settings
-}
+-- various autocommands
+require("custom-autocmd")
 
-local viml_conf_dir = vim.fn.stdpath("config") .. "/viml_conf"
--- source all the core config files
-for _, file_name in ipairs(core_conf_files) do
-  if vim.endswith(file_name, "vim") then
-    local path = string.format("%s/%s", viml_conf_dir, file_name)
-    local source_cmd = "source " .. path
-    vim.cmd(source_cmd)
-  else
-    local module_name, _ = string.gsub(file_name, "%.lua", "")
-    package.loaded[module_name] = nil
-    require(module_name)
-  end
-end
+-- all the user-defined mappings
+require("mappings")
 
---vim.cmd("autocmd VimEnter * lcd %:p:h")
+-- all the plugins installed and their configurations
+require("plugin_specs")
 
-vim.cmd("let g:python3_host_prog = '/opt/homebrew/bin/python3'")
+-- This is done after plugin_specs, since lsp-config is loaded in that step
+require("lsp_conf")
 
-vim.notify = function(msg, log_level, _)
-    return  -- silently ignore this specific error
-  -- Otherwise, use the default notification handler
-  vim.api.nvim_notify(msg, log_level, {})
-end
+-- diagnostic related config
+require("diagnostic-conf")
 
-vim.keymap.set("n", "<leader>v", function()
-  local pos = vim.api.nvim_win_get_cursor(0)  -- Save cursor position
-  local clipboard = vim.fn.getreg("+")        -- Get clipboard contents
-
-  vim.api.nvim_buf_set_lines(0, 0, -1, false, vim.split(clipboard, "\n"))  -- Replace buffer
-  vim.api.nvim_win_set_cursor(0, pos)         -- Restore cursor
-end, { desc = "Replace buffer with clipboard" })
-
-vim.keymap.set('n', '<leader>a', function()
-  local pos = vim.api.nvim_win_get_cursor(0)
-  vim.cmd('normal! ggVG"+y')
-  vim.api.nvim_win_set_cursor(0, pos)
-end, { noremap = true, silent = true })
-
--- Make Lua errors print full stack trace
---vim.schedule(function()
---  local orig_notify = vim.notify
---  vim.notify = function(msg, level, opts)
---    if level == vim.log.levels.ERROR then
---      local trace = debug.traceback(msg, 2)
---      orig_notify(trace, level, opts)
---    else
---      orig_notify(msg, level, opts)
---    end
---  end
---end)
+-- colorscheme settings
+require("ui")

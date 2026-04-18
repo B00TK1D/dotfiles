@@ -1,104 +1,99 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="powerlevel10k/powerlevel10k"
-#ZSH_THEME="agnoster"
 
-# Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in $ZSH/themes/
-# If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
-# Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
-
-# Uncomment the following line to use hyphen-insensitive completion.
-# Case-sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
-
-# Uncomment one of the following lines to change the auto-update behavior
-# zstyle ':omz:update' mode disabled  # disable automatic updates
-# zstyle ':omz:update' mode auto      # update automatically without asking
-# zstyle ':omz:update' mode reminder  # just remind me to update when it's time
-
-# Uncomment the following line to change how often to auto-update (in days).
-# zstyle ':omz:update' frequency 13
-
-# Uncomment the following line if pasting URLs and other text is messed up.
-# DISABLE_MAGIC_FUNCTIONS="true"
-
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
-
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
-
-# Uncomment the following line to display red dots whilst waiting for completion.
-# You can also set it to another string to have that shown instead of the default red dots.
-# e.g. COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"
-# Caution: this setting can cause issues with multiline prompts in zsh < 5.7.1 (see #5765)
-# COMPLETION_WAITING_DOTS="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# Uncomment the following line if you want to change the command execution time
-# stamp shown in the history command output.
-# You can set one of the optional three formats:
-# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# or set a custom format using the strftime function format specifications,
-# see 'man strftime' for details.
-# HIST_STAMPS="mm/dd/yyyy"
-
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
-# Which plugins would you like to load?
-# Standard plugins can be found in $ZSH/plugins/
-# Custom plugins may be added to $ZSH_CUSTOM/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-#plugins=(git docker docker-compose dotenv colorize colored-man-pages copyfile copypath fancy-ctrl-z fzf git-auto-fetch git-prompt golang per-directory-history safe-paste zsh-interactive-cd zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting)
-plugins=(docker docker-compose dotenv colorize colored-man-pages copyfile copypath fancy-ctrl-z fzf golang per-directory-history safe-paste zsh-interactive-cd zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting)
-#plugins=(dotenv colorize colored-man-pages copyfile copypath fancy-ctrl-z fzf golang per-directory-history safe-paste zsh-interactive-cd zsh-autosuggestions zsh-history-substring-search)
+plugins=(git colorize colored-man-pages fzf golang per-directory-history safe-paste zsh-interactive-cd zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
+prompt_context() {}
 
-# export MANPATH="/usr/local/man:$MANPATH"
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='nvim'
+fi
 
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export ARCHFLAGS="-arch $(uname -m)"
 
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+source ~/.env
 
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-#
-#
+alias pip="pip3"
+alias python="python3"
+
+alias rc="nvim ~/.zshrc && source ~/.zshrc"
+alias conf="nvim ~/.config && source ~/.zshrc && tmux source-file ~/.config/tmux/tmux.conf"
+
+alias hosts="sudo vim /etc/hosts"
+alias wg="sudo wg"
+alias wgs="sudo wg show"
+alias wgu="sudo wg-quick up"
+alias wgd="sudo wg-quick down"
+wge() { sudo wg-quick down $1; nvim /etc/wireguard/$1.conf; sudo wg-quick up $1}
+
+alias c="clear;"
+alias x="exit"
+alias hs="tmux split-window -h"
+alias vs="tmux split-window -v"
+alias d="tmux split-window -h; tmux select-pane -l; nvim ."
+alias mon="tmux split-window -d; tmux split-window -d 'mactop'; btop "
+
+alias nv="nvim ."
+alias oc="opencode"
+alias lg="lazygit"
+alias dcu="docker compose up --build -d && docker compose logs -f"
+alias dcd="docker compose down"
+alias dcl="docker compose logs -f"
+alias dps="docker compose ps || docker ps"
+
+alias p="ping -c 3"
+alias fdns="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
+alias lat="ping 8.8.8.8"
+
+alias msg="osascript -e 'tell application \"Messages\" to activate'"
+alias dsc="osascript -e 'tell application \"Discord\" to activate'"
+alias crm="osascript -e 'tell application \"Chrome\" to activate'"
+
+
+alias rsync="rsync -rvh --progress --stats --exclude '.DS_Store'"
+alias sshkey="cat ~/.ssh/id_ed25519.pub"
+alias kh="nvim ~/.ssh/known_hosts"
+alias cert="sudo certbot certonly --email certs@bootk.id --agree-tos --dns-cloudflare --dns-cloudflare-credentials /etc/letsencrypt/cloudflare.ini -d"
+alias dns="cloudflare-cli"
+dnsa() {
+  domain=$(echo "$1" | awk -F. '{print $(NF-1)"."$NF}')
+  subdomain=$(echo "$1" | awk -F. '{for(i=1;i<=NF-2;i++) printf "%s%s", $i, (i<NF-2?".":"")}')
+  cloudflare-cli -d "$domain" add -t A --ttl 60 "$subdomain" "$2"
+}
+dnsd() {
+  domain=$(echo "$1" | awk -F. '{print $(NF-1)"."$NF}')
+  subdomain=$(echo "$1" | awk -F. '{for(i=1;i<=NF-2;i++) printf "%s%s", $i, (i<NF-2?".":"")}')
+  cloudflare-cli -d "$domain" rm -t A "$subdomain"
+}
+
+
+eval $(ssh-agent -s) > /dev/null 2>&1
+ssh-add -A > /dev/null 2>&1
+
+be() { echo "$*" | base64 }
+bd() { echo "$*" | base64 -d }
+
+search() {
+    if [ "$#" -ne 0 ]; then
+        export QUERY="$*"
+    fi
+    open "https://www.google.com/search?q=$(python3 -c "import urllib.parse; print(urllib.parse.quote_plus('$QUERY'))")"
+}
+
+alias lchef="open 'https://cyberchef.bootk.id'"
+alias ldns="open 'https://dns.bootk.id'"
+alias lfile="open 'https://file.bootk.id"
+alias yt="open 'https://youtube.com'"
 
 # Function to handle Space and Ctrl+Space for history navigation
 function magic-space() {
@@ -113,118 +108,47 @@ function magic-space() {
   fi
 }
 
+function sudo() {
+  if [[ $# -eq 0 ]]; then
+    /usr/bin/sudo $(fc -ln | tail -2 | head -1)
+  else
+    /usr/bin/sudo $@
+  fi
+}
+
 zle -N magic-space
 bindkey ' ' magic-space    # Space for up-history
 bindkey '\x00' magic-space # Ctrl+Space for down-history
 
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-#
-# alias cl="clear"
-alias v="nvim"
-alias c="clear"
-alias m='$(fc -s) | more'
-alias j="!! | jq"
-alias ps="ps -ax"
-alias nv="nvim ."
-alias dp="docker ps"
-alias dpa="docker ps -a"
-alias de="docker exec -it"
-alias dc="docker compose"
-alias lg="lazygit"
-alias dcu="docker compose up --build -d && docker compose logs -f"
-alias dcd="docker compose down"
-alias dcl="docker compose logs -f"
-alias bat="batcat"
-alias sshd="/usr/sbin/sshd"
-alias around="grep -A 20 -B 20"
-alias bw="binwalk --dd='.*'"
-alias targz="tar -czvf"
-alias untargz="tar -xvzf"
-alias pass="openssl rand -hex 16"
-alias py="python3.13"
-alias python3="python3.13"
-alias pip="pip3.13"
-alias pip3="pip3.13"
-alias fdns="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
-alias yy="fc -ln -1 | pbcopy"
-alias k="k9s"
-alias s="source ~/.zshrc"
-alias g="go run ."
-alias gi="go mod init"
-alias gm="go mod tidy"
-alias rc="nvim ~/.zshrc && source ~/.zshrc"
-
-alias urldecode='python3 -c "import sys, urllib.parse as ul; print(ul.unquote_plus(sys.argv[1]))"'
-alias urlencode='python3 -c "import sys, urllib.parse as ul;print (ul.quote_plus(sys.argv[1]))"'
-
-alias pwn="docker run --rm -it --platform=linux/amd64 --cap-add=SYS_PTRACE -v $(pwd):/root/work -p 23946:23496 skysider/pwndocker"
-
-alias e="rm .command.sh && nvim .command.sh && source .command.sh"
-alias ed="nvim .command.sh && source .command.sh"
-
-alias wh='f(){ ip="$1"; [[ $ip =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$ ]] || ip=$(dig +short "$1" | grep -m1 -Eo "([0-9]{1,3}\.){3}[0-9]{1,3}"); curl -s "https://ipinfo.io/$ip" | jq; unset -f f; }; f'
-
-alias rsync="rsync -rvh --progress --stats --exclude '.DS_Store'"
-
-alias gcc64="docker run --rm --platform=linux/amd64 -v $PWD:/src -w /src gcc gcc"
-alias ibrew='arch -x86_64 /usr/local/bin/brew'
-alias x86='arch -x86_64 zsh'
-
-clone() {
-  git clone "https://github.com/$1"
-  cd "$(basename "$1")"
+export LMSTUDIO_API_BASE="http://localhost:6769"
+export LMSTUDIO_ENDPOINT_URL="http://localhost:6769"
+export OPENAI_API_BASE="http://localhost:6769/v1"
+#export GH_COPILOT_OVERRIDE_PROXY_URL="http://localhost:8080"
+export OPENAI_API_KEY="not-needed"
+function ask() {
+  export QUERY="$*"
+  #llm -m lmstudio/qwen/qwen3.5-35b-a3b -s "answer very short, no markdown or bullets, in one line of possible for ctf" "$QUERY"
+  export ASK_OUTPUT=$(llm -m lmstudio/qwen/qwen3.6-35b-a3b -s "answer very short, no markdown or bullets, in one line of possible for ctf" "$QUERY" | tee /dev/tty)
 }
 
-ip() {
-  # If no arguments are passed, show the local IP address
-  if [ $# -eq 0 ]; then
-    ifconfig | grep -B 2 " active" | grep inet | cut -d' ' -f2
-  else
-    # Otherwise run the ip command with remaining arguments
-    command ip "$@"
-  fi
+function hard() {
+  echo
+  llm -m lmstudio/openai/gpt-oss-120b -s "answer very short. do not use markdown. do not use bullets and other enumeration" "$*"
 }
 
-eval $(ssh-agent -s) > /dev/null 2>&1
-ssh-add -A > /dev/null 2>&1
+alias run="eval \$ASK_OUTPUT"
+alias chat="lms chat"
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+export PATH=$PATH:$(go env GOPATH)/bin # go
+export PATH=/Users/user/.opencode/bin:$PATH # opencode
+export PATH="/usr/local/opt/node/bin:$PATH" # npm
+export PATH=$PATH:~/.local/bin
 
-export PATH="$HOME/go/bin:$PATH"
+# Added by LM Studio CLI tool (lms)
+export PATH="$PATH:/Users/user/.lmstudio/bin"
+export LM_STUDIO_API_KEY="not-needed"
 
-#alias qiq="python3 /Users/stearns/workspace/qiq/qiq.py"
-eval "$(zoxide init zsh)"
-
-export GHIDRA_INSTALL_DIR=/Applications/ghidra
-
-GOEXPERIMENT=rangefunc
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-# Added by Antigravity
-export PATH="/Users/stearns/.antigravity/antigravity/bin:$PATH"
-
-export CURSOR_API_KEY=KEY
-export PATH="$(brew --prefix openssl@3)/bin:$PATH"
-
-# bun completions
-[ -s "/Users/stearns/.bun/_bun" ] && source "/Users/stearns/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-
-#alias opencode='bun /Users/stearns/workspace/opencode/packages/opencode/src/index.ts'
-alias opencode='/Users/stearns/workspace/opencode/packages/opencode/dist/opencode-darwin-arm64/bin/opencode'

@@ -3,13 +3,12 @@ local gs = require("gitsigns")
 gs.setup {
   signs = {
     add = { text = "+" },
-    change = { text = "┃" },
+    change = { text = "~" },
     delete = { text = "_" },
     topdelete = { text = "‾" },
-    changedelete = { text = "~" },
-    untracked = { text = "┆" },
+    changedelete = { text = "│" },
   },
-  word_diff = true,
+  word_diff = false,
   on_attach = function(bufnr)
     local function map(mode, l, r, opts)
       opts = opts or {}
@@ -18,9 +17,9 @@ gs.setup {
     end
 
     -- Navigation
-    map("n", "<C-h>", function()
+    map("n", "<leader>tj", function()
       if vim.wo.diff then
-        return "<C-h>"
+        return "<leader>tj"
       end
       vim.schedule(function()
         gs.next_hunk()
@@ -28,9 +27,9 @@ gs.setup {
       return "<Ignore>"
     end, { expr = true, desc = "next hunk" })
 
-    map("n", "<C-S-h>", function()
+    map("n", "<leader>tk", function()
       if vim.wo.diff then
-        return "<C-H>"
+        return "<leader>tk"
       end
       vim.schedule(function()
         gs.prev_hunk()
@@ -39,20 +38,20 @@ gs.setup {
     end, { expr = true, desc = "previous hunk" })
 
     -- Actions
-    map("n", "<leader>tp", gs.preview_hunk)
+    map("n", "<leader>tp", gs.preview_hunk, { desc = "preview hunk" })
     map("n", "<leader>tb", function()
       gs.blame_line { full = true }
-    end)
+    end, { desc = "blame hunk" })
   end,
 }
 
-vim.api.nvim_create_autocmd('ColorScheme', {
+vim.api.nvim_create_autocmd("ColorScheme", {
   pattern = "*",
   callback = function()
-    vim.cmd [[
+    vim.cmd([[
       hi GitSignsChangeInline gui=reverse
       hi GitSignsAddInline gui=reverse
       hi GitSignsDeleteInline gui=reverse
-    ]]
-  end
+    ]])
+  end,
 })
